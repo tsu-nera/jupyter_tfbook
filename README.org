@@ -1,0 +1,20 @@
+* TensorFlow で学ぶディープラーニング入門 
+  - amazon: [[https://www.amazon.co.jp/TensorFlow%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80%EF%BD%9E%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E5%BE%B9%E5%BA%95%E8%A7%A3%E8%AA%AC-%E4%B8%AD%E4%BA%95-%E6%82%A6%E5%8F%B8-ebook/dp/B01MAWJJOW][TensorFlow で学ぶディープラーニング入門]]
+
+* 環境
+  - Ubuntu 16.04 LTS
+  - anaconda 4.3.14
+  - Python 3.6
+  - TensorFlow 1.0.1
+
+* 環境構築
+  以下を参考に Ubuntu と anaconda で環境構築。
+  - [[https://www.tensorflow.org/install/install_linux][Installing TensorFlow on Ubuntu  |  TensorFlow]]
+
+#+begin_src bash
+conda create -n tfcnn
+source activate tensorflow
+pip install --ignore-installed --upgrade TF_PYTHON_URL # Python3.6 CPU only
+
+#+end_src
+
