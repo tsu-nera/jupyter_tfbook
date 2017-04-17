@@ -13,7 +13,7 @@
 
 #+begin_src bash
 conda create -n tfcnn
-source activate tensorflow
+source activate tfcnn
 pip install --ignore-installed --upgrade TF_PYTHON_URL # Python3.6 CPU only
 
 #+end_src
